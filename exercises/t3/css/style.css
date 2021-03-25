@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+main,
+nav,
+footer,
+section{
+    display: block;
+}
+body{
+    background-color: #f2f2f2;
+}
+
+header{
+    width: 100%;
+    margin-top: 76px;
+}
+
+#logo{
+    display: block;
+    height: 88px;
+    width: 88px;
+    background-image: url("../images/Star.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#logo span{
+    font-family:Tahoma;
+    padding-left: 110px;
+    color: #222222;
+    font-size: 60px;
+
+}

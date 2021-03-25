@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+nav,
+main,
+section,
+footer {
+    display: block;
+}
+
+body {
+    font-family: Lato;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    position: absolute;
+    width: 1440px;
+    height: 657px;
+    left: 1px;
+    top: 0px;  
+    background: #ED4C5C;
+}
+#logo {
+    background-image: url(../images/bowtie.png);
+    display: block;
+    position: absolute;
+    left: 87px;
+    top: 59px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 48px;    
+}
+#logo span {
+    display: block;
+    color: white;
+    font-size: 18px;
+    margin-left: 30px;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+nav{
+    position: absolute;
+    width: 445px;
+    height: 22px;
+    left: 50px;
+    top: 129px;
+    
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    
+    
+    color: #FFFFFF; 
+}
+nav a {
+    float: left;
+    padding: 12px;
+    width:150px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+   
+
+    color: #FFFFFF;
+}
+nav a:hover {
+    color: #464053;
+}
+
+#picture_me { 
+position:absolute;
+width: 445px;
+height: 311px;   
+left: 90px;
+top: 196px;
+border-radius: 15px;
+}
+
+#signup{
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    left: 51px;
+    top: 552px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    color: #ED4C5C;
+    border: none;
+}
+
+
+.about_me {
+    position: absolute;
+    width: 1440px;
+    height: 657px;
+    left: 0px;
+    top: 657px;
+    background-color: #FFFFFF;
+}
+
+.about_me h1 {
+    width: 445px;
+    height: 89px;
+    padding-left: 50px;
+    padding-top: 56px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #000000;
+}
+
+.about_me p {
+    position: absolute;
+    width: 445px;
+    height: 83px;
+    padding-left: 50px;
+    padding-top: 30px; 
+    
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    
+    text-align: justify;
+    
+    color: #000000;
+     
+}
+
+#learnmore {
+    position: absolute;
+    width: 100px;
+    height: 26.28px;
+    left: 50px;
+    top: 278px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+  
+    
+
+    text-align: justify;
+
+    color: #ED4C5C;
+}
+
+#image1 {
+    position: absolute;
+    left: 50px;
+    top: 345px;
+}
+#image2 {
+    position: absolute;
+    left: 430px;
+    top: 345px;
+}
+#image3 {
+    position: absolute;
+    left: 810px;
+    top: 345px;
+}
+
+
+.images {
+    width: 350px;
+    height: 248 px;
+    border-radius: 8px;
+}
+
+.images img {
+    width: 350px;
+    height: 248.86px;
+    border-radius: 8px;
+    left: 50px;
+    top: 345px;
+
+}
+
+
+.images a {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+   
+    color: #ED4C5C;
+
+}
+
+#rectangle {
+    position: absolute;
+    width: 352px;
+    height: 40px;
+    top: 209px;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#mySkills {
+    position: absolute;
+    width: 1440px;
+    height: 657px;
+    left: 0px;
+    top:1314px;
+    
+    background: #F5F4F4;
+}
+
+#mySkills h1 {
+    position: absolute;
+    width: 300px;
+    height: 47px;
+    left: 50px;
+    top: 57px;
+    font-size: 36px;
+}
+
+#skill {
+    display: flex;
+    text-align: center;
+    width: 1110px;
+    justify-content: space-between;
+    margin-top: 160px;
+    margin-left: 50px;
+}
+
+#skill a {
+    background-color: white;
+    width: 255px;
+    height: 226px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 271px;
+}
+
+#skill h3 {
+    margin-top: 12.5px;
+    font-size: 18px;
+    color: black;
+}
+
+#skill h4 {
+    width: 191px;
+    height: 51px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    
+    color: #000000;
+     
+}
+
+footer {
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    left: 0px;
+    top: 1971px;
+    background-color: #ED4C5C;       
+}
+
+footer h5 {
+    margin-left: 80px;
+    font-size: 24px;
+    color: white;
+    line-height: 29px;
+    font-family: Lato;
+    font-style: normal;
+    position: absolute;
+    height: 28px;
+    left: 264px;
+    top: 29px;
+}
+
+footer section {
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+    width: 134px;
+    height: 32px;
+    left: 50px;
+    top: 29px;
+}
+footer section img {
+    width: 28px;
+}
+
+
+
+
