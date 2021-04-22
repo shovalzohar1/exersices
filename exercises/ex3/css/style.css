@@ -231,7 +231,6 @@ margin-top: 6px;
 }
 
 
-
 .navLayout3{
     
     display: flex; 
@@ -265,8 +264,8 @@ margin-top: 6px;
 }
 .box{
     position: relative;
-    width: 335px;
-    height: 350px;
+    width: 332px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -288,25 +287,7 @@ margin-top: 6px;
     width: 64px;
 
 }
-/* #box1 {
-    height: 323px;
-    margin-left: 22px;
-}
 
-#box2 {
-    height: 412px;
-    margin-left: 22px;
-}
-
-#box3 {
-    height: 254px;
-}
-
-#box4 {
-    height: 362px;
-    margin-left: 10px;
-
-} */
 
 #footerL2 {
     position: fixed;
