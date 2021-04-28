@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+            crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="UTF-8">
+    <title>Shoval Zohar</title>
+</head>
+
+<body>
+<div id="wrapper">
+    <h1 class="card-header text-center">Join Our Members Club</h1>
+    <br>
+    <form class="mx-auto" action="http://se.shenkar.ac.il/teach/web1/2021/get_form3.php" method="GET" autocomplete="on">
+        <div id="location-all">
+            <div class="col-md-5">
+                <label for="input1" class="form-label">Full name</label>
+                <input type="text" class="form-control" name="fullName" id="input1"
+                       pattern="([a-zA-Z]+\s)+[a-zA-Z]+" >
+                
+            </div>
+            <br>
+
+            <div class="col-md-5">
+                <label for="InputEmail" class="form-label">Email address</label>
+                <input type="email" class="form-control" name="mail" id="InputEmail" >
+                
+            </div>
+            <br>
+            <div class="col-md-5">
+                <label for="inputPassword" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword" name="pass">
+            </div>
+            <br>
+
+            <div class="col-md-5">
+                <label for="website" class="form-label">Website</label>
+                <input type="url" name="website" class="form-control" id="website" placeholder="http://www.Shovalzo.com">
+            </div>
+            <br>
+
+            <div class="col-md-5">
+                <label for="phone" class="form-label">Phone</label>
+                <input type="tel" name="phone" class="form-control" id="phone"
+                       pattern="([0-9]\d{8,9})">
+            </div>
+            <br>
+            <lable for="coffee">Coffee:</lable>
+            <input type="number" name="coffee" id="coffee" min="0" max="10">
+            <br>
+            <br>
+            <lable for="temper">Temperature:</lable>
+            <input type="range" name="temper" id="temper" min="1" max="10">
+            <br>
+
+            <br>
+            <div class="col-md-5">
+                <label for="inputAddress" class="form-label">Address</label>
+                <input type="text" name="address" class="form-control" id="inputAddress">
+            </div>
+            <br>
+
+            <h4>Interest</h4>
+                <div class="col-md-5">
+                   
+                    <lable class="list-group-item">Watch TV <input class="form-check-input me-1" id="myCheck1" type="checkbox"
+                                                                   name="interests[]" value="watch tv"></lable>
+                    <lable class="list-group-item">sleep <input class="form-check-input me-1" id="myCheck2" type="checkbox"
+                                                                 name="interests[]" value="sleep"></lable>
+                    <lable class="list-group-item">Travel <input class="form-check-input me-1" id="myCheck3" type="checkbox"
+                                                                 name="interests[]" value="travel"></lable>
+                    <lable class="list-group-item">dance<input class="form-check-input me-1" id="myCheck4" type="checkbox"
+                                                               name="interests[]" value="dance"></lable>
+                </div>
+            <br>
+
+            <div class="col-md-5">
+                <div class="form-floating">
+                    <select class="form-select" id="floatingSelect" name="gender"
+                            aria-label="Floating label select example">
+                        <option selected>Choose...</option>
+                        <option value="female" id="female">Female</option>
+                        <option value="male" id="male">Male</option>
+                        <option value="other" id="other">Other</option>
+                    </select>
+                    <label for="floatingSelect">Gender</label>
+                </div>
+            </div>
+            <br>
+            <lable for="age">Age:</lable>
+            <input type="number" name="age" id="age" value="age" required="required" min="18" max="24">
+            <br>
+            <br>
+        </div>
+        <div id="location-button">
+            <button type="submit" class="btn btn-primary btn-block mx-auto">Send</button>
+        </div>
+
+    </form>
+</div>
+
+</body>
+</html>
